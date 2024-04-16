@@ -6,7 +6,7 @@ public class MainTest {
     @Test
     public void testWithYesChoice() {
         // Tạo một đối tượng Main với đầu vào là "y"
-        Main main = new Main(); // Thay "Main" bằng tên lớp Main nếu cần
+        Main main = new Main();
 
         // Gọi các phương thức của Main
         main.setInput("y");
@@ -22,7 +22,7 @@ public class MainTest {
     @Test
     public void testWithNoChoice() {
         // Tạo một đối tượng Main với đầu vào là "n"
-        Main main = new Main(); // Thay "Main" bằng tên lớp Main nếu cần
+        Main main = new Main();
 
         // Gọi các phương thức của Main
         main.setInput("n");
