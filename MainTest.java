@@ -1,16 +1,12 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
-import example.Main;
-
-// Import lớp Main vào MainTest nếu nó không ở cùng package
-// import com.example.Main;
 
 public class MainTest {
 
     @Test
     public void testWithYesChoice() {
         // Tạo một đối tượng Main với đầu vào là "y"
-        com.example.Main main = new com.example.Main(); // Thay "com.example" bằng package của lớp Main nếu cần
+        Main main = new Main(); // Thay "Main" bằng tên lớp Main nếu cần
 
         // Gọi các phương thức của Main
         main.setInput("y");
@@ -26,7 +22,7 @@ public class MainTest {
     @Test
     public void testWithNoChoice() {
         // Tạo một đối tượng Main với đầu vào là "n"
-        com.example.Main main = new com.example.Main(); // Thay "com.example" bằng package của lớp Main nếu cần
+        Main main = new Main(); // Thay "Main" bằng tên lớp Main nếu cần
 
         // Gọi các phương thức của Main
         main.setInput("n");
